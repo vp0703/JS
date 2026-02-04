@@ -166,3 +166,17 @@ const vowels = (str) =>
     }
     console.log(count);
 };
+
+
+// DOM
+let h2 = document.querySelector("h2");
+console.dir(h2.innerText);
+h2.innerText = h2.innerText + "from Apna college Students"
+
+let div = document.querySelectorAll(".box");
+idx=1;
+for (i of div)
+{
+    i.innerText = `new unique text ${idx}`;
+    idx++;
+}
