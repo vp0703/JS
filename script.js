@@ -10,6 +10,11 @@ console.log("sum is: " + sum(Number(c), Number(d)));
 
 
 
+let result = confirm("allow microphone");
+console.log(result);
+
+
+
 // Q1. Product
 const product = {
     name: "Ball Pen",
